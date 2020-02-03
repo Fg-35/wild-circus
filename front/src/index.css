@@ -1,6 +1,7 @@
 *{
-  font-family: Arial, Helvetica, sans-serif !important;
+  font-family: 'Amatic SC', cursive !important;
 }
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
 
 .tiny{font-size: 0.8rem;}
 .small{ font-size: 1rem;}
@@ -24,6 +25,7 @@
 .bgcolor4{background-color: blue;}
 .bgcolor5{background-color: green;}
 .bgcolor6{background-color: yellow;}
+.bgcolor7{background-color: gainsboro;}
 
 .bold{ font-weight: bold;}
 .txt-align-center{ text-align: center; }
@@ -39,6 +41,15 @@
 .radius-bottom-left{ border-bottom-left-radius: 5px;}
 .radius-bottom-right{ border-bottom-right-radius: 5px;}
 
+.main-content{
+  padding: 20px;
+}
+
+.shadow{
+  -webkit-box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.3);
+}
 
 @media screen and (min-width: 400px) and (max-width: 992px){
   .mob-0 {display: none;}
