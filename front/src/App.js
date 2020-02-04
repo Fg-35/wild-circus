@@ -3,7 +3,8 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './Home';
 import './';
 import { Switch, Route } from 'react-router-dom';
-import Welcome from './components/Welcome/Welcome';
+import Footer from './components/Footer/Footer';
+import Performance from './components/Presentation/Presentation'
 
 class App extends React.Component {
   constructor(props) {
@@ -23,13 +24,10 @@ class App extends React.Component {
         <Navbar></Navbar>
         <Switch>
           <Route exact path="/" component={() => <Home login={this.userLogin} isLogged={this.state.isLogged} />} />
-
-
-          {/* <Route path="/green" component={() => <Green isLogged={this.state.isLogged} />} />
-					<Route path="/pink" component={() => <Pink isLogged={this.state.isLogged} />} />
-					<Route path="/blue" component={() => <Blue isLogged={this.state.isLogged} />} />
-          {isLogged && <Route path="/useradmin" component={() => <UserAdmin isLogged={isLogged} />} />} */}
+          <Route path="/performance" component={() => <Performance isLogged={this.state.isLogged} />} />
+					
         </Switch>
+        <Footer></Footer>
       </div>
     );
   }

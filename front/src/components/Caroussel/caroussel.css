@@ -1,0 +1,22 @@
+.slide-container {
+    padding: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:60vw;
+    height: auto;
+}
+
+.imgcar{
+    display:flex;
+    width:30vw;
+    height: 30vh;
+}
+.carousel .thumbs{
+    display: flex;
+    justify-content: center;
+}
+.legend{
+    font-size:30px !important;
+}
